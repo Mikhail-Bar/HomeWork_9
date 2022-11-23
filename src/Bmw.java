@@ -7,6 +7,6 @@ public class Bmw extends Auto {
 
     @Override
     public void autoClass() {
-        System.out.print(toString() + " - Business - 1");
+        System.out.print(toString() + " - Business - 1\n");
     }
 }

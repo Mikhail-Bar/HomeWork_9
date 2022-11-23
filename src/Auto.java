@@ -78,7 +78,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "\nMark auto: " + mark +
+        return "Mark auto: " + mark +
                 ", model: " + model +
                 ", weight: " + weight +
                 ", length: " + length +
@@ -90,7 +90,7 @@ public class Auto {
                 "}";
     }
     public void autoClass(){
-        System.out.print( toString() + " - Classic");
+        System.out.print( toString() + " - Classic\n");
     }
     public Auto(String mark, String model, int weight, int length, int width, int maxSpeed, int tankVol , int price, double cons) {
         this.mark = mark;

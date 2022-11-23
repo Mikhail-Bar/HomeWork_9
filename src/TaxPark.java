@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 
 public class TaxPark {
@@ -25,7 +24,6 @@ public class TaxPark {
     public void printAutoWithSpeed(int maxSpeed, int minSpeed){
     for (Auto auto:autoList){
         if(auto.getMaxSpeed()> minSpeed && auto.getMaxSpeed()<maxSpeed){
-            System.out.println("*** 4 ***");
             System.out.println(auto.toString());}
     }
 
@@ -42,7 +40,7 @@ public class TaxPark {
         totalPrice=+totalPrice + auto.getPrice();
 
         }
-        System.out.printf("\nTotal price of %s : %d$",TaxParkName,totalPrice);
+        System.out.printf("Total price of %s : %d$\n",TaxParkName,totalPrice);
     }
 }
 

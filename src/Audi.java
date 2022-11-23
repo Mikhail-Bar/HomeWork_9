@@ -7,6 +7,6 @@ public class Audi extends Auto{
 
     @Override
     public void autoClass() {
-        System.out.print(toString() + " - Business - 2");
+        System.out.print(toString() + " - Business - 2\n");
     }
 }
